@@ -3,7 +3,7 @@
     <string name="app_name">Percobaan Lokalise</string>
     <string name="title_activity_main">Aktifiti utama</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">Pecahan Pertama</string>
+    <string name="first_fragment_label">Fragment Pertama</string>
     <string name="second_fragment_label">Pecahan Kedua</string>
     <string name="next">Selanjutnya</string>
     <string name="previous">Sebelumnya</string>
