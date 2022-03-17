@@ -11,6 +11,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.example.lokalise_sdk.databinding.ActivityMainBinding;
+import com.lokalise.sdk.Lokalise;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,7 +21,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Lokalise.init(this,
+                "cb886ae9317bec920f2b517670e94a212155fc44", "314085816232058c7f1118.72784781"  );
 
+        Lokalise.updateTranslations();
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
